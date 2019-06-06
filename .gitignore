@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/client/node_modules
+/server/SignalRServer/.vs
+/server/SignalRServer/SignalRServer/bin/Debug/netcoreapp2.2
+/server/SignalRServer/SignalRServer/obj
