@@ -20,5 +20,6 @@ namespace SignalRServer.Controllers
 
             return Ok(new { Message = "Request Completed" });
         }
+        
     }
 }

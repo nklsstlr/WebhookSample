@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="413b10c1-56ec-4170-b23c-d7ff08e9d8ac" name="Default Changelist" comment="rider added">
-      <change beforePath="$PROJECT_DIR$/../../client/Neues Textdokument.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../client/SignalRClient/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/SignalRClient/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../client/SignalRClient/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/SignalRClient/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../client/SignalRClient/src/app/app.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/SignalRClient/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/SignalRClient/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../client/SignalRClient/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/SignalRClient/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../client/SignalRClient/src/app/services/signal-r.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../client/SignalRClient/src/app/services/signal-r.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignalRServer/ChartHub.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignalRServer/ChartHub.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SignalRServer/Controllers/ChartController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SignalRServer/Controllers/ChartController.cs" afterDir="false" />
     </list>
     <ignored path="SignalRServer.sln.DotSettings.user" />
@@ -18,17 +17,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SignalRServer/Controllers/ChartController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            <state relative-caret-position="330">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
               <folding>
-                <marker date="1560179762779" expanded="true" signature="6:67" ph="..." />
-                <marker date="1560179762779" expanded="true" signature="104:615" ph="{...}" />
-                <marker date="1560179762779" expanded="true" signature="208:613" ph="{...}" />
-                <marker date="1560179762779" expanded="true" signature="317:361" ph="{...}" />
-                <marker date="1560179762779" expanded="true" signature="397:607" ph="{...}" />
+                <marker date="1560328380320" expanded="true" signature="6:67" ph="..." />
+                <marker date="1560328380320" expanded="true" signature="104:624" ph="{...}" />
+                <marker date="1560328380320" expanded="true" signature="208:622" ph="{...}" />
+                <marker date="1560328380320" expanded="true" signature="317:361" ph="{...}" />
+                <marker date="1560328380320" expanded="true" signature="397:607" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -39,7 +38,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SignalRServer/DataManager.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -55,23 +54,112 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SignalRServer/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <folding>
+                <marker date="1560179408891" expanded="false" signature="6:255" ph="..." />
+                <marker date="1560179408891" expanded="true" signature="280:607" ph="{...}" />
+                <marker date="1560179408891" expanded="true" signature="307:605" ph="{...}" />
+                <marker date="1560179408891" expanded="true" signature="360:434" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SignalRServer/ChartHub.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="118" selection-start-line="10" selection-start-column="100" selection-end-line="10" selection-end-column="118" />
+              <folding>
+                <marker date="1560326751629" expanded="true" signature="6:132" ph="..." />
+                <marker date="1560326751629" expanded="true" signature="157:333" ph="{...}" />
+                <marker date="1560326751629" expanded="true" signature="191:331" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SignalRServer/ChartModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding>
+                <marker date="1560179408890" expanded="false" signature="6:96" ph="..." />
+                <marker date="1560179408890" expanded="true" signature="121:336" ph="{...}" />
+                <marker date="1560179408890" expanded="true" signature="151:334" ph="{...}" />
+                <marker date="1560179408890" expanded="true" signature="272:328" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SignalRServer/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+              <folding>
+                <marker date="1560185887894" expanded="false" signature="6:402" ph="..." />
+                <marker date="1560185887894" expanded="true" signature="427:2054" ph="{...}" />
+                <marker date="1560185887894" expanded="true" signature="454:2052" ph="{...}" />
+                <marker date="1560185887894" expanded="true" signature="513:576" ph="{...}" />
+                <marker date="1560185887894" expanded="true" signature="799:1280" ph="{...}" />
+                <marker date="1560185887894" expanded="true" signature="849:1131" ph="{...}" />
+                <marker date="1560185887894" expanded="true" signature="1468:2046" ph="{...}" />
+                <marker date="1560185887894" expanded="true" signature="1554:1631" ph="{...}" />
+                <marker date="1560185887894" expanded="true" signature="1648:1851" ph="{...}" />
+                <marker date="1560185887894" expanded="true" signature="1889:1968" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SignalRServer/TimerManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding>
+                <marker date="1560179408892" expanded="false" signature="6:120" ph="..." />
+                <marker date="1560179408892" expanded="true" signature="145:823" ph="{...}" />
+                <marker date="1560179408892" expanded="true" signature="177:821" ph="{...}" />
+                <marker date="1560179408892" expanded="true" signature="384:602" ph="{...}" />
+                <marker date="1560179408892" expanded="true" signature="649:815" ph="{...}" />
+                <marker date="1560179408892" expanded="true" signature="743:805" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/SignalRServer/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SignalRServer/TimerManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SignalRServer/DataManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SignalRServer/ChartHub.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SignalRServer/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SignalRServer/ChartModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SignalRServer/Controllers/ChartController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/SignalRServer/Startup.cs" />
+        <option value="$PROJECT_DIR$/SignalRServer/ChartHub.cs" />
         <option value="$PROJECT_DIR$/SignalRServer/Controllers/ChartController.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="24" />
     <option name="y" value="24" />
     <option name="width" value="1656" />
@@ -159,7 +247,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560179410288</updated>
-      <workItem from="1560179412598" duration="1557000" />
+      <workItem from="1560179412598" duration="2989000" />
     </task>
     <task id="LOCAL-00001" summary="rider added">
       <created>1560179591864</created>
@@ -172,7 +260,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1557000" />
+    <option name="totallyTimeSpent" value="2989000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -185,6 +273,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="24" y="24" width="1656" height="974" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Image Layers" />
@@ -193,7 +282,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NuGet" weight="0.32988507" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.32539684" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32539684" />
       <window_info anchor="bottom" id="Unit Tests" weight="0.32988507" />
       <window_info anchor="bottom" id="REST Client" weight="0.32993197" />
       <window_info anchor="bottom" id="Terminal" weight="0.32993197" />
@@ -202,7 +291,7 @@
       <window_info anchor="bottom" id="Build" weight="0.32879817" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32879817" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32879817" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39909297" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -257,6 +346,19 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/SignalRServer/ChartHub.cs</url>
+          <line>10</line>
+          <properties documentPath="$PROJECT_DIR$/SignalRServer/ChartHub.cs" initialLine="10">
+            <startOffsets>
+              <option value="269" />
+            </startOffsets>
+            <endOffsets>
+              <option value="324" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -264,16 +366,15 @@
     <entry file="file://$PROJECT_DIR$/SignalRServer/Properties/launchSettings.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SignalRServer/Controllers/ChartController.cs">
+    <entry file="file://$PROJECT_DIR$/SignalRServer/ChartModel.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        <state relative-caret-position="60">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
-            <marker date="1560179762779" expanded="true" signature="6:67" ph="..." />
-            <marker date="1560179762779" expanded="true" signature="104:615" ph="{...}" />
-            <marker date="1560179762779" expanded="true" signature="208:613" ph="{...}" />
-            <marker date="1560179762779" expanded="true" signature="317:361" ph="{...}" />
-            <marker date="1560179762779" expanded="true" signature="397:607" ph="{...}" />
+            <marker date="1560179408890" expanded="false" signature="6:96" ph="..." />
+            <marker date="1560179408890" expanded="true" signature="121:336" ph="{...}" />
+            <marker date="1560179408890" expanded="true" signature="151:334" ph="{...}" />
+            <marker date="1560179408890" expanded="true" signature="272:328" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -288,6 +389,79 @@
             <marker date="1560179408891" expanded="true" signature="159:712" ph="{...}" />
             <marker date="1560179408891" expanded="true" signature="214:706" ph="{...}" />
             <marker date="1560179408891" expanded="true" signature="313:695" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SignalRServer/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <marker date="1560179408891" expanded="false" signature="6:255" ph="..." />
+            <marker date="1560179408891" expanded="true" signature="280:607" ph="{...}" />
+            <marker date="1560179408891" expanded="true" signature="307:605" ph="{...}" />
+            <marker date="1560179408891" expanded="true" signature="360:434" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SignalRServer/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+          <folding>
+            <marker date="1560185887894" expanded="false" signature="6:402" ph="..." />
+            <marker date="1560185887894" expanded="true" signature="427:2054" ph="{...}" />
+            <marker date="1560185887894" expanded="true" signature="454:2052" ph="{...}" />
+            <marker date="1560185887894" expanded="true" signature="513:576" ph="{...}" />
+            <marker date="1560185887894" expanded="true" signature="799:1280" ph="{...}" />
+            <marker date="1560185887894" expanded="true" signature="849:1131" ph="{...}" />
+            <marker date="1560185887894" expanded="true" signature="1468:2046" ph="{...}" />
+            <marker date="1560185887894" expanded="true" signature="1554:1631" ph="{...}" />
+            <marker date="1560185887894" expanded="true" signature="1648:1851" ph="{...}" />
+            <marker date="1560185887894" expanded="true" signature="1889:1968" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SignalRServer/TimerManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <marker date="1560179408892" expanded="false" signature="6:120" ph="..." />
+            <marker date="1560179408892" expanded="true" signature="145:823" ph="{...}" />
+            <marker date="1560179408892" expanded="true" signature="177:821" ph="{...}" />
+            <marker date="1560179408892" expanded="true" signature="384:602" ph="{...}" />
+            <marker date="1560179408892" expanded="true" signature="649:815" ph="{...}" />
+            <marker date="1560179408892" expanded="true" signature="743:805" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SignalRServer/ChartHub.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="118" selection-start-line="10" selection-start-column="100" selection-end-line="10" selection-end-column="118" />
+          <folding>
+            <marker date="1560326751629" expanded="true" signature="6:132" ph="..." />
+            <marker date="1560326751629" expanded="true" signature="157:333" ph="{...}" />
+            <marker date="1560326751629" expanded="true" signature="191:331" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SignalRServer/Controllers/ChartController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <marker date="1560328380320" expanded="true" signature="6:67" ph="..." />
+            <marker date="1560328380320" expanded="true" signature="104:624" ph="{...}" />
+            <marker date="1560328380320" expanded="true" signature="208:622" ph="{...}" />
+            <marker date="1560328380320" expanded="true" signature="317:361" ph="{...}" />
+            <marker date="1560328380320" expanded="true" signature="397:607" ph="{...}" />
           </folding>
         </state>
       </provider>
